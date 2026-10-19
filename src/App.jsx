@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API_KEY = "3702aa2f31164265f239e46e1e886334";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const WORLD_LANGS = {
   'Vapi': 'gu-IN', 'Surat': 'gu-IN',
